@@ -41,7 +41,7 @@ const App = () => {
     console.log("Saved Data:", data);
   };
 
-  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleSearch = (event:any) => {
     const searchValue = event.target.value.toLowerCase();
     setSearchTerm(searchValue);
 
